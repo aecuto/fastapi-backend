@@ -3,6 +3,8 @@
 # Getting Start
 
 ```sh
+$ pipenv install
+
 $ pipenv run uvicorn src.main:app --reload
 ```
 
