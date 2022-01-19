@@ -11,5 +11,6 @@ $ pipenv run uvicorn src.main:app --reload
 # for intellisense python use
 @ext:ms-python.vscode-pylance
 
+$ pipenv --venv
 # and add extra path
 ```
