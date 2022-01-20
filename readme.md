@@ -8,11 +8,7 @@ $ pipenv install
 $ pipenv run uvicorn src.main:app --reload
 ```
 
-# WSL
-```sh
-# for intellisense python use
-@ext:ms-python.vscode-pylance
+# Intellisense
 
-$ pipenv --venv
-# and add extra path
-```
+ - install Python extension for Visual Studio Code
+ - use the Python: Select Interpreter command to pipenv
